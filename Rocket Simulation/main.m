@@ -1,7 +1,10 @@
 %% make an animation
 close all;
 define_constants;
-%K = 1.0e+03 *[-3.0706   -0.4382    0.0032    0.0000;-0.0000   -0.0000    0.0000    0.0894]
+K2 = 1.0e+03 *[-1.4784   -0.1033    0.0003    0.0000;-0.0000   -0.0000    0.0000    0.3162]
+K1 = 1.0e+03 *[-3.0706   -0.4382    0.0032    0.0000;-0.0000   -0.0000    0.0000    0.0894]
+
+
 % look at the source of make_animation if it doesn't work - you may need to
 % lower the fps on slower computers. Otherwise you can uncomment a line to
 % make the animation happen faster than real time
