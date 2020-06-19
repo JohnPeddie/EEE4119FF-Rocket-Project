@@ -1,7 +1,7 @@
 %% make an animation
 close all;
 define_constants;
-
+%K = 1.0e+03 *[-3.0706   -0.4382    0.0032    0.0000;-0.0000   -0.0000    0.0000    0.0894]
 % look at the source of make_animation if it doesn't work - you may need to
 % lower the fps on slower computers. Otherwise you can uncomment a line to
 % make the animation happen faster than real time
@@ -22,3 +22,4 @@ Scenario = 1;
 mission_complete(x, y, ast_x, ast_y, ast_th, Scenario)
 
 %% think about other ways of visualizing this system!
+
