@@ -6,8 +6,9 @@ successes = 0;
 for i = q
     set_param(['AsteroidImpact', '/rngSeed'], 'Value', int2str(i));
     sim('AsteroidImpact');  % tell simulink to simulate the model
-    Scenario = 1;
+    Scenario = 2;
     successes = successes + (mission_complete(x, y, ast_x, ast_y, ast_th, Scenario));
+    
 
 end
 
