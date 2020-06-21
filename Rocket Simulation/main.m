@@ -20,7 +20,7 @@ make_animation(simulation_time, x, y, th, ast_x, ast_y, ast_th, ast_dx, ast_dy, 
 record_animation(simulation_time, x, y, th, ast_x, ast_y, ast_th, ast_dx, ast_dy)
 
 %% check whether you succeeded
-Scenario = 2;
+Scenario = 1;
 mission_complete(x, y, ast_x, ast_y, ast_th, Scenario)
 
 %% think about other ways of visualizing this system!
