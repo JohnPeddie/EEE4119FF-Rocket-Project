@@ -1,6 +1,4 @@
 # EEE4119FF-Rocket-Project
-Restarting this project because I hate myself
-
 
 Instructions for use:
 Load the Rocket Simulation/AsteroidImpact.slx simulink file and run the main.m matlab file to produce the results of simulation.
