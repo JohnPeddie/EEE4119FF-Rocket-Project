@@ -1,6 +1,7 @@
 %% make an animation
 close all;
 define_constants;
+setup_controller;
 
 
 
